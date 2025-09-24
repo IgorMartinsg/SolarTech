@@ -1,0 +1,50 @@
+.contato-titulo {
+    color: #000;
+    margin-top: 100px;
+    
+    text-align: center;
+}
+
+
+
+form {
+  max-width: 500px; 
+  margin: 0 auto;   
+}
+
+form div {
+  margin-bottom: 15px; 
+  text-align: left;    
+}
+
+form label {
+  display: block;      
+  margin-bottom: 5px;  
+  font-weight: bold;   
+}
+
+form input,
+form textarea {
+  width: 100%;         
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-form{
+    background-color: var(--primary-color);
+    color: var(--white) !important;
+    padding: 15px 25px;
+      border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
+
+.btn-form:hover {
+    background-color: #27b625;
+    color: white;
+}
