@@ -160,7 +160,7 @@ h1, h2, h3 {
 
 /* Hero Section */
 .hero-section {
-    background: url('./imagens/solar-panel.jpg  ') no-repeat center center/cover;
+    background: url('./Imagens/solar-panel.jpg') no-repeat center center/cover;
     color: var(--white);
     text-align: center;
     padding: 200px 0 150px;
@@ -552,8 +552,15 @@ h1, h2, h3 {
 
 /* Media Queries para Responsividade */
 
-
-@media (max-width: 992px) {
+@media (max-width: 1150px){ 
+    .nav-menu ul {  
+   
+    gap: 0px 15px;
+    align-items: center;
+   
+}
+}
+@media (max-width: 1020px) {
     .nav-menu {
         display: none;
         flex-wrap: nowrap;
